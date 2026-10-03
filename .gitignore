@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Large trained models
+models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Local datasets
+data/**/*.csv
+data/**/*.json
+
+# Temporary files
+*.log
+*.tmp
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
